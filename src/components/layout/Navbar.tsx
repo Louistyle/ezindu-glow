@@ -15,7 +15,6 @@ const Navbar = () => {
     { to: "/projects", label: t("nav_projects") },
     { to: "/situation", label: t("nav_situation") },
     { to: "/outreach", label: t("nav_outreach") },
-    { to: "/donate", label: t("nav_donate") },
     { to: "/get-involved", label: t("nav_involved") },
     { to: "/contact", label: t("nav_contact") },
   ];
@@ -35,7 +34,7 @@ const Navbar = () => {
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-1 lg:flex">
+        <nav className="hidden items-center gap-0.5 lg:flex">
           {links.map((l) => (
             <NavLink
               key={l.to}
@@ -43,7 +42,7 @@ const Navbar = () => {
               end={l.to === "/"}
               className={({ isActive }) =>
                 cn(
-                  "rounded-full px-3 py-2 text-sm font-medium transition-smooth",
+                  "whitespace-nowrap rounded-full px-3 py-2 text-sm font-medium transition-smooth",
                   isActive
                     ? "bg-primary/10 text-primary"
                     : "text-foreground/75 hover:bg-muted hover:text-primary"
@@ -66,7 +65,7 @@ const Navbar = () => {
             <span className="text-border group-hover:text-primary-foreground/30">|</span>
             <span className={cn("transition-colors", lang === "en" ? "text-primary group-hover:text-primary-foreground" : "text-muted-foreground group-hover:text-primary-foreground/70")}>EN</span>
           </button>
-          <Button asChild variant="default" size="sm" className="hidden bg-gradient-gold text-secondary-foreground shadow-gold hover:opacity-95 md:inline-flex">
+          <Button asChild variant="default" size="sm" className="hidden whitespace-nowrap bg-gradient-gold text-secondary-foreground shadow-gold hover:opacity-95 md:inline-flex">
             <Link to="/donate">{t("nav_donate_cta")}</Link>
           </Button>
           <button
