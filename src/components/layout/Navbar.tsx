@@ -58,12 +58,12 @@ const Navbar = () => {
           <button
             onClick={toggle}
             aria-label="Toggle language"
-            className="group flex items-center gap-1.5 rounded-full border border-border bg-card px-3 py-1.5 text-xs font-semibold uppercase tracking-wider text-foreground/80 transition-smooth hover:border-primary hover:text-primary"
+            className="group flex items-center gap-2 rounded-full bg-primary/10 px-4 py-2 text-sm font-bold uppercase tracking-wider text-primary transition-smooth hover:bg-primary hover:text-primary-foreground"
           >
-            <Globe2 className="h-3.5 w-3.5" />
-            <span className={cn(lang === "de" ? "text-primary" : "text-muted-foreground")}>DE</span>
-            <span className="text-border">|</span>
-            <span className={cn(lang === "en" ? "text-primary" : "text-muted-foreground")}>EN</span>
+            <Globe2 className="h-4 w-4 transition-transform group-hover:rotate-180" />
+            <span className={cn("transition-colors", lang === "de" ? "text-primary group-hover:text-primary-foreground" : "text-muted-foreground group-hover:text-primary-foreground/70")}>DE</span>
+            <span className="text-border group-hover:text-primary-foreground/30">|</span>
+            <span className={cn("transition-colors", lang === "en" ? "text-primary group-hover:text-primary-foreground" : "text-muted-foreground group-hover:text-primary-foreground/70")}>EN</span>
           </button>
           <Button asChild variant="default" size="sm" className="hidden bg-gradient-gold text-secondary-foreground shadow-gold hover:opacity-95 md:inline-flex">
             <Link to="/donate">{t("nav_donate_cta")}</Link>
