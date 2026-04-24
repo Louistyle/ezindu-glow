@@ -14,6 +14,7 @@ const Navbar = () => {
     { to: "/about", label: t("nav_about") },
     { to: "/projects", label: t("nav_projects") },
     { to: "/situation", label: t("nav_situation") },
+    { to: "/outreach", label: t("nav_outreach") },
     { to: "/donate", label: t("nav_donate") },
     { to: "/get-involved", label: t("nav_involved") },
     { to: "/contact", label: t("nav_contact") },

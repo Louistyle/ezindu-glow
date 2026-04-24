@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { HeartHandshake, Hand, Handshake, ArrowRight } from "lucide-react";
+import { HeartHandshake, Hand, Handshake, ArrowRight, Wrench } from "lucide-react";
 import { useLanguage } from "@/i18n/LanguageContext";
 import { Button } from "@/components/ui/button";
 
@@ -9,6 +9,7 @@ const GetInvolved = () => {
     { icon: HeartHandshake, title: t("involved_sponsor_title"), text: t("involved_sponsor_text"), to: "/contact" },
     { icon: Hand, title: t("involved_volunteer_title"), text: t("involved_volunteer_text"), to: "/contact" },
     { icon: Handshake, title: t("involved_partner_title"), text: t("involved_partner_text"), to: "/contact" },
+    { icon: Wrench, title: t("involved_vocational_title"), text: t("involved_vocational_text"), to: "/contact" },
   ];
   return (
     <>
@@ -21,7 +22,7 @@ const GetInvolved = () => {
       </section>
 
       <section className="container py-20 md:py-28">
-        <div className="grid gap-7 md:grid-cols-3">
+        <div className="grid gap-7 md:grid-cols-2 lg:grid-cols-4">
           {cards.map(({ icon: Icon, title, text, to }) => (
             <article key={title} className="group flex flex-col rounded-3xl border border-border bg-card p-8 shadow-card transition-smooth hover:-translate-y-1 hover:border-gold hover:shadow-warm">
               <div className="mb-6 grid h-14 w-14 place-items-center rounded-2xl bg-gradient-leaf text-primary-foreground shadow-warm transition-smooth group-hover:bg-gradient-gold group-hover:text-secondary-foreground">

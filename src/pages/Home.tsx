@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, BookOpen, Building2, Sun, HeartHandshake } from "lucide-react";
+import { ArrowRight, BookOpen, Building2, Sun, HeartHandshake, Wrench, Users } from "lucide-react";
 import { useLanguage } from "@/i18n/LanguageContext";
 import { Button } from "@/components/ui/button";
 import SectionHeader from "@/components/SectionHeader";
@@ -14,6 +14,8 @@ const Home = () => {
     { icon: Building2, title: t("impact_school_title"), text: t("impact_school_text") },
     { icon: Sun, title: t("impact_solar_title"), text: t("impact_solar_text") },
     { icon: HeartHandshake, title: t("impact_family_title"), text: t("impact_family_text") },
+    { icon: Wrench, title: t("impact_vocational_title"), text: t("impact_vocational_text") },
+    { icon: Users, title: t("impact_outreach_title"), text: t("impact_outreach_text") },
   ];
 
   return (
@@ -78,7 +80,7 @@ const Home = () => {
       <section className="bg-gradient-soft py-24 md:py-32">
         <div className="container">
           <SectionHeader kicker={t("home_impact_kicker")} title={t("home_impact_title")} />
-          <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {impacts.map(({ icon: Icon, title, text }) => (
               <article
                 key={title}
