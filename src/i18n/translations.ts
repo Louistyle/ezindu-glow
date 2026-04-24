@@ -5,6 +5,7 @@ export const translations = {
     nav_about: "Über uns",
     nav_projects: "Projekte",
     nav_situation: "Situation vor Ort",
+    nav_outreach: "Einsatz & Stärkung",
     nav_donate: "Spenden",
     nav_involved: "Mitmachen",
     nav_contact: "Kontakt",
@@ -32,6 +33,10 @@ export const translations = {
     impact_solar_text: "Verlässliche Energie rettet Leben in Kliniken.",
     impact_family_title: "Unterstützung für Familien",
     impact_family_text: "Wir helfen Witwen, Waisen und vulnerablen Familien.",
+    impact_vocational_title: "Berufsausbildung",
+    impact_vocational_text: "Wir vermitteln praktische Fähigkeiten für ein selbstständiges Leben.",
+    impact_outreach_title: "Gemeinschaftseinsatz",
+    impact_outreach_text: "Wir besuchen die Schwächsten und bringen direkte Hilfe.",
 
     // About
     about_title: "Über uns",
@@ -49,6 +54,7 @@ export const translations = {
     about_mission_2: "Kinder durch Patenschaftsprogramme unterstützen",
     about_mission_3: "Vulnerable Familien begleiten",
     about_mission_4: "Nachhaltige Lösungen wie Solarenergie umsetzen",
+    about_mission_5: "Gemeinschaften durch Berufsausbildung und direkte Hilfe stärken",
 
     // Situation
     situation_title: "Situation vor Ort",
@@ -95,6 +101,8 @@ export const translations = {
     involved_volunteer_text: "Bringen Sie Ihre Zeit und Talente ein.",
     involved_partner_title: "Projektpartner werden",
     involved_partner_text: "Lassen Sie uns als Organisation gemeinsam Großes bewegen.",
+    involved_vocational_title: "Berufsausbildung unterstützen",
+    involved_vocational_text: "Helfen Sie uns, Werkstätten und Werkzeuge bereitzustellen.",
     involved_learn_more: "Mehr erfahren",
 
     // Contact
@@ -118,12 +126,32 @@ export const translations = {
     footer_quick: "Schnellzugriff",
     footer_contact: "Kontakt",
     footer_follow: "Folgen Sie uns",
+
+    // Outreach
+    outreach_title: "Einsatz & Stärkung",
+    outreach_lead: "Nachhaltige Veränderung durch Bildung, wirtschaftliche Unabhängigkeit und direkte Hilfe.",
+    outreach_voc_kicker: "Berufsausbildung",
+    outreach_voc_title: "Fähigkeiten, die Leben verändern.",
+    outreach_voc_intro: "Wir glauben, dass nachhaltiger Wandel nicht nur durch Bildung, sondern auch durch wirtschaftliche Unabhängigkeit entsteht. Mit unserem Berufsausbildungsprogramm statten wir Menschen mit praktischen Fähigkeiten und Werkzeugen aus, um ein selbstständiges Leben aufzubauen.",
+    outreach_voc_card1: "Beschaffung von Industrienähmaschinen für die Werkstatt",
+    outreach_voc_card2: "Die Bethel-Werkstatt — ein vollausgestattetes Ausbildungszentrum für Schneiderei",
+    outreach_voc_card3: "Bethel Madunacho bei der Arbeit in seiner neuen Werkstatt",
+    outreach_com_kicker: "Gemeinschaftseinsatz & Hausbesuche",
+    outreach_com_title: "Wir gehen dorthin, wo Hilfe gebraucht wird.",
+    outreach_com_intro: "Unser Einsatz geht über Institutionen hinaus. Wir besuchen die Schwächsten zu Hause – ältere Menschen, Kranke, Familien mit kleinen Kindern – und bringen ihnen direkte Unterstützung, Würde und Hoffnung. Wir veranstalten auch Gemeindeversammlungen, bei denen Lebensmittel und wichtige Güter an Bedürftige verteilt werden.",
+    outreach_com_g1: "Hausbesuch bei einem älteren Gemeindemitglied",
+    outreach_com_g2: "Besuch einer bedürftigen Familie",
+    outreach_com_g3: "Direkte Hilfslieferung an gefährdete Personen",
+    outreach_com_g4: "Gemeindeversammlung – Familien erhalten Unterstützung",
+    outreach_com_g5: "Lebensmittelverteilung an Frauen und Familien",
+    outreach_com_g6: "Reis und wichtige Lebensmittel zur Verteilung bereit",
   },
   en: {
     nav_home: "Home",
     nav_about: "About Us",
     nav_projects: "Projects",
     nav_situation: "Situation",
+    nav_outreach: "Outreach & Empowerment",
     nav_donate: "Donate",
     nav_involved: "Get Involved",
     nav_contact: "Contact",
@@ -148,6 +176,10 @@ export const translations = {
     impact_solar_text: "Reliable energy saves lives in clinics.",
     impact_family_title: "Support for Families",
     impact_family_text: "We help widows, orphans and vulnerable families.",
+    impact_vocational_title: "Vocational Training",
+    impact_vocational_text: "We equip people with practical skills for an independent life.",
+    impact_outreach_title: "Community Outreach",
+    impact_outreach_text: "We visit the most vulnerable and deliver direct support.",
 
     about_title: "About Us",
     about_who_kicker: "Who we are",
@@ -164,6 +196,7 @@ export const translations = {
     about_mission_2: "Support children through sponsorship programs",
     about_mission_3: "Assist vulnerable families",
     about_mission_4: "Implement sustainable solutions like solar energy",
+    about_mission_5: "Empower communities through vocational training and direct outreach",
 
     situation_title: "Situation on the Ground",
     situation_kicker: "Biafraland today",
@@ -206,6 +239,8 @@ export const translations = {
     involved_volunteer_text: "Bring your time and talents to our cause.",
     involved_partner_title: "Become a Partner",
     involved_partner_text: "Let's move mountains together as organizations.",
+    involved_vocational_title: "Support Vocational Training",
+    involved_vocational_text: "Help us provide workshops and tools that change lives.",
     involved_learn_more: "Learn more",
 
     contact_title: "Contact",
@@ -227,6 +262,25 @@ export const translations = {
     footer_quick: "Quick Links",
     footer_contact: "Contact",
     footer_follow: "Follow Us",
+
+    // Outreach
+    outreach_title: "Outreach & Empowerment",
+    outreach_lead: "Lasting change through education, economic independence and direct support.",
+    outreach_voc_kicker: "Vocational Training",
+    outreach_voc_title: "Skills that change lives.",
+    outreach_voc_intro: "We believe that lasting change comes not only from education, but from economic independence. Through our vocational training programme, we equip individuals with practical skills and tools to build a sustainable livelihood.",
+    outreach_voc_card1: "Procuring industrial sewing machines and equipment for the workshop",
+    outreach_voc_card2: "The Bethel Workshop — a fully equipped tailoring and fashion training centre",
+    outreach_voc_card3: "Bethel Madunacho at work in his new workshop",
+    outreach_com_kicker: "Community Outreach & Home Visits",
+    outreach_com_title: "We go where help is needed.",
+    outreach_com_intro: "Our outreach goes beyond institutions. We visit the most vulnerable in their homes — the elderly, the sick, struggling families with young children — bringing direct support, dignity, and hope. We also hold community gatherings where food and essential supplies are distributed to those in need.",
+    outreach_com_g1: "Home visit to an elderly community member",
+    outreach_com_g2: "Visiting a family in need",
+    outreach_com_g3: "Direct aid delivery to vulnerable individuals",
+    outreach_com_g4: "Community gathering — families receiving support",
+    outreach_com_g5: "Food distribution to women and families",
+    outreach_com_g6: "Rice and essential food supplies ready for distribution",
   },
 } as const;
 

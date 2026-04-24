@@ -10,7 +10,7 @@ const About = () => {
     { icon: Globe2, label: t("about_partner_2") },
     { icon: Users, label: t("about_partner_3") },
   ];
-  const mission = [t("about_mission_1"), t("about_mission_2"), t("about_mission_3"), t("about_mission_4")];
+  const mission = [t("about_mission_1"), t("about_mission_2"), t("about_mission_3"), t("about_mission_4"), t("about_mission_5")];
 
   return (
     <>
