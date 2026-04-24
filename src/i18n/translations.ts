@@ -151,7 +151,7 @@ export const translations = {
     nav_about: "About Us",
     nav_projects: "Projects",
     nav_situation: "Situation",
-    nav_outreach: "Outreach & Empowerment",
+    nav_outreach: "Outreach",
     nav_donate: "Donate",
     nav_involved: "Get Involved",
     nav_contact: "Contact",
