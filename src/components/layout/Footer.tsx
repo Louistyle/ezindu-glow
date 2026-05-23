@@ -9,8 +9,8 @@ const Footer = () => {
     <footer className="mt-24 bg-gradient-leaf text-primary-foreground">
       <div className="container grid gap-10 py-16 md:grid-cols-4">
         <div className="space-y-3">
-          <div className="flex items-center gap-3 font-display text-xl">
-            <img src={logo} alt="Ezindu – Erlöstes Leben e.V. logo" width={60} height={60} className="h-[3.75rem] w-[3.75rem] object-contain" />
+          <div className="flex items-center gap-1 font-display text-xl">
+            <img src={logo} alt="Ezindu – Erlöstes Leben e.V. logo" width={72} height={72} className="h-[4.5rem] w-[4.5rem] object-contain -mr-1" />
             Ezindu
           </div>
           <p className="max-w-xs text-sm text-primary-foreground/75">{t("footer_tagline")}</p>
