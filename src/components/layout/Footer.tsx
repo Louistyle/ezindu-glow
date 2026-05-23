@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container grid gap-10 py-16 md:grid-cols-4">
         <div className="space-y-3">
           <div className="flex items-center gap-3 font-display text-xl">
-            <img src={logo} alt="Ezindu – Erlöstes Leben e.V. logo" width={60} height={60} className="h-[3.75rem] w-[3.75rem] rounded-full bg-primary-foreground/95 object-contain p-1" />
+            <img src={logo} alt="Ezindu – Erlöstes Leben e.V. logo" width={60} height={60} className="h-[3.75rem] w-[3.75rem] object-contain" />
             Ezindu
           </div>
           <p className="max-w-xs text-sm text-primary-foreground/75">{t("footer_tagline")}</p>
