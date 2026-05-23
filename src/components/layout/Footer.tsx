@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import { Facebook, Instagram, Mail, MapPin, Phone, Heart } from "lucide-react";
+import { Facebook, Instagram, Mail, MapPin, Phone } from "lucide-react";
 import { useLanguage } from "@/i18n/LanguageContext";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   const { t } = useLanguage();
@@ -8,10 +9,8 @@ const Footer = () => {
     <footer className="mt-24 bg-gradient-leaf text-primary-foreground">
       <div className="container grid gap-10 py-16 md:grid-cols-4">
         <div className="space-y-3">
-          <div className="flex items-center gap-2 font-display text-xl">
-            <span className="grid h-9 w-9 place-items-center rounded-full bg-gold text-secondary-foreground">
-              <Heart className="h-4 w-4" />
-            </span>
+          <div className="flex items-center gap-3 font-display text-xl">
+            <img src={logo} alt="Ezindu – Erlöstes Leben e.V. logo" width={48} height={48} className="h-12 w-12 rounded-full bg-primary-foreground/95 object-contain p-1" />
             Ezindu
           </div>
           <p className="max-w-xs text-sm text-primary-foreground/75">{t("footer_tagline")}</p>
