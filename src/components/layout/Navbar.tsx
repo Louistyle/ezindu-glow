@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
-import { Menu, X, Globe2, Heart } from "lucide-react";
+import { Menu, X, Globe2 } from "lucide-react";
 import { useLanguage } from "@/i18n/LanguageContext";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import logo from "@/assets/logo.png";
 
 const Navbar = () => {
   const { t, lang, toggle } = useLanguage();
@@ -23,9 +24,7 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/85 backdrop-blur-lg">
       <div className="container flex h-16 items-center justify-between gap-4">
         <Link to="/" className="flex items-center gap-2 font-display text-lg font-semibold text-primary">
-          <span className="grid h-9 w-9 place-items-center rounded-full bg-gradient-leaf text-primary-foreground shadow-warm">
-            <Heart className="h-4 w-4" />
-          </span>
+          <img src={logo} alt="Ezindu – Erlöstes Leben e.V. logo" width={44} height={44} className="h-11 w-11 object-contain" />
           <span className="leading-none">
             Ezindu
             <span className="block text-[10px] font-sans font-medium uppercase tracking-[0.18em] text-muted-foreground">
