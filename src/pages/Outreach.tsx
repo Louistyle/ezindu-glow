@@ -1,13 +1,16 @@
 import { Wrench, Users } from "lucide-react";
 import { useLanguage } from "@/i18n/LanguageContext";
+import vocEquipment from "@/assets/voc-equipment.jpg";
+import vocWorkshop from "@/assets/voc-workshop.jpg";
+import vocBethel from "@/assets/voc-bethel.jpg";
 
 const Outreach = () => {
   const { t } = useLanguage();
 
   const vocCards = [
-    { caption: t("outreach_voc_card1") },
-    { caption: t("outreach_voc_card2") },
-    { caption: t("outreach_voc_card3") },
+    { caption: t("outreach_voc_card1"), image: vocEquipment },
+    { caption: t("outreach_voc_card2"), image: vocWorkshop },
+    { caption: t("outreach_voc_card3"), image: vocBethel },
   ];
 
   const gallery = [
@@ -45,15 +48,18 @@ const Outreach = () => {
         </div>
 
         <div className="mt-14 grid gap-7 md:grid-cols-3">
-          {vocCards.map(({ caption }, i) => (
+          {vocCards.map(({ caption, image }, i) => (
             <article
               key={i}
               className="group overflow-hidden rounded-3xl border border-border bg-card shadow-card transition-smooth hover:-translate-y-1 hover:border-gold hover:shadow-warm"
             >
               <div className="relative aspect-[4/3] overflow-hidden bg-gradient-soft">
-                <div className="absolute inset-0 grid place-items-center text-muted-foreground/40">
-                  <Wrench className="h-16 w-16" />
-                </div>
+                <img
+                  src={image}
+                  alt={caption}
+                  loading="lazy"
+                  className="absolute inset-0 h-full w-full object-cover transition-smooth group-hover:scale-105"
+                />
               </div>
               <div className="p-6">
                 <p className="text-sm leading-relaxed text-foreground">{caption}</p>
