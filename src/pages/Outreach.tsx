@@ -22,8 +22,8 @@ const Outreach = () => {
   const gallery = [
     { caption: t("outreach_com_g1"), image: outreachG1 },
     { caption: t("outreach_com_g2"), image: outreachG2 },
-    { caption: t("outreach_com_g3"), image: outreachG3 },
-    { caption: t("outreach_com_g4"), image: outreachG4 },
+    { caption: t("outreach_com_g3"), image: outreachG4 },
+    { caption: t("outreach_com_g4"), image: outreachG3 },
     { caption: t("outreach_com_g5"), image: outreachG5 },
     { caption: t("outreach_com_g6"), image: outreachG6 },
   ];
