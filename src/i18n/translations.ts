@@ -200,7 +200,7 @@ export const translations = {
 
     situation_title: "Situation on the Ground",
     situation_kicker: "Biafraland today",
-    situation_lead: "The former Biafra region still suffers from the aftermath of the 1960s civil war. Reconstruction was never fully realized. Whole communities carry the weight of missing infrastructure, lack of education and economic neglect.",
+    situation_lead: "The south eastern region of Nigeria still suffers from the aftermath of the 1960s civil war. Reconstruction was never fully realized. Whole communities carry the weight of missing infrastructure, lack of education and economic neglect.",
     consequence_education: "Limited access to education",
     consequence_education_text: "Schools are far, overcrowded or non-existent.",
     consequence_unemployment: "High youth unemployment",
