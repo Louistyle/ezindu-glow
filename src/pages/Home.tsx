@@ -36,22 +36,33 @@ const Home = () => {
       {/* HERO */}
       <section className="relative isolate overflow-hidden">
         <div className="absolute inset-0 -z-10">
-          {heroSlides.map((src, i) => (
-            <img
-              key={src}
-              src={src}
-              alt=""
-              width={1920}
-              height={1280}
-              className="absolute inset-0 h-full w-full object-cover transition-all ease-[cubic-bezier(0.7,0,0.3,1)]"
-              style={{
-                opacity: i === activeSlide ? 1 : 0,
-                transform: i === activeSlide ? "scale(1.04)" : "scale(1)",
-                transitionDuration: "1600ms",
-              }}
-            />
-          ))}
+          {heroSlides.map((src, i) => {
+            const isActive = i === activeSlide;
+            return (
+              <img
+                key={src}
+                src={src}
+                alt=""
+                width={1920}
+                height={1280}
+                className={`absolute inset-0 h-full w-full object-cover transition-opacity ease-[cubic-bezier(0.7,0,0.3,1)] ${isActive ? "animate-hero-kenburns" : ""}`}
+                style={{
+                  opacity: isActive ? 1 : 0,
+                  transitionDuration: "1600ms",
+                }}
+              />
+            );
+          })}
           <div className="absolute inset-0 bg-gradient-hero" />
+          {/* Extra fade on the left for text contrast */}
+          <div
+            className="absolute inset-0 pointer-events-none"
+            aria-hidden
+            style={{
+              background:
+                "linear-gradient(90deg, hsl(150 50% 12% / 0.78) 0%, hsl(150 50% 12% / 0.55) 35%, hsl(150 50% 12% / 0.15) 65%, hsl(150 50% 12% / 0) 100%)",
+            }}
+          />
         </div>
         <div className="container flex min-h-[88vh] flex-col justify-center py-24">
           <div className="max-w-3xl animate-fade-up">
