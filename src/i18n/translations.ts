@@ -270,7 +270,7 @@ export const translations = {
     outreach_voc_title: "Skills that change lives.",
     outreach_voc_intro: "We believe that lasting change comes not only from education, but from economic independence. Through our vocational training programme, we equip individuals with practical skills and tools to build a sustainable livelihood.",
     outreach_voc_card1: "Procuring industrial sewing machines and equipment for the workshop",
-    outreach_voc_card2: "The Bethel Workshop — a fully equipped tailoring and fashion training centre",
+    outreach_voc_card2: "The Bethel Workshop: a fully equipped tailoring and fashion centre",
     outreach_voc_card3: "Bethel Madunacho at work in his new workshop",
     outreach_com_kicker: "Community Outreach & Home Visits",
     outreach_com_title: "We go where help is needed.",
