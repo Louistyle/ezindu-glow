@@ -22,9 +22,9 @@ const Navbar = () => {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/85 backdrop-blur-lg">
-      <div className="container flex h-16 items-center justify-between gap-4">
+      <div className="container flex h-20 items-center justify-between gap-4">
         <Link to="/" className="flex items-center gap-1 font-display text-lg font-semibold text-primary">
-          <img src={logo} alt="Ezindu – Erlöstes Leben e.V. logo" width={56} height={56} className="h-14 w-14 object-contain -mr-1" />
+          <img src={logo} alt="Ezindu – Erlöstes Leben e.V. logo" width={73} height={73} className="h-[4.5rem] w-[4.5rem] object-contain -mr-1" />
           <span className="leading-none">
             Ezindu
             <span className="block text-[10px] font-sans font-medium uppercase tracking-[0.18em] text-muted-foreground">
