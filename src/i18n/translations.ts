@@ -58,7 +58,7 @@ export const translations = {
 
     // Situation
     situation_title: "Situation vor Ort",
-    situation_kicker: "Biafraland heute",
+    situation_kicker: "SÜDOST-NIGERIA HEUTE",
     situation_lead: "Die ehemalige Region Biafra leidet bis heute unter den Folgen des Bürgerkriegs der 1960er Jahre. Wiederaufbau wurde nie vollständig realisiert. Ganze Gemeinden tragen die Last fehlender Infrastruktur, mangelnder Bildung und wirtschaftlicher Vernachlässigung.",
     consequence_education: "Fehlender Zugang zu Bildung",
     consequence_education_text: "Schulen sind weit, überfüllt oder nicht vorhanden.",
@@ -199,7 +199,7 @@ export const translations = {
     about_mission_5: "Empower communities through vocational training and direct outreach",
 
     situation_title: "Situation on the Ground",
-    situation_kicker: "Biafraland today",
+    situation_kicker: "SOUTH EASTERN NIGERIA TODAY",
     situation_lead: "The south eastern region of Nigeria still suffers from the aftermath of the 1960s civil war. Reconstruction was never fully realized. Whole communities carry the weight of missing infrastructure, lack of education and economic neglect.",
     consequence_education: "Limited access to education",
     consequence_education_text: "Schools are far, overcrowded or non-existent.",
