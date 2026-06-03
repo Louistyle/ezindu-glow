@@ -8,6 +8,7 @@ import heroClassroom from "@/assets/hero-classroom.jpg.asset.json";
 import heroBooks from "@/assets/hero-books.jpg.asset.json";
 import heroOutreach from "@/assets/hero-outreach.jpg.asset.json";
 import whySchoolProject from "@/assets/why-school-project.jpg.asset.json";
+import ctaClassroom from "@/assets/cta-classroom.jpg.asset.json";
 
 const Home = () => {
   const { t } = useLanguage();
@@ -17,7 +18,7 @@ const Home = () => {
   useEffect(() => {
     const id = setInterval(() => {
       setActiveSlide((i) => (i + 1) % heroSlides.length);
-    }, 2000);
+    }, 7000);
     return () => clearInterval(id);
   }, [heroSlides.length]);
 
