@@ -45,10 +45,12 @@ const Home = () => {
                 alt=""
                 width={1920}
                 height={1280}
-                className={`absolute inset-0 h-full w-full object-cover transition-opacity ease-[cubic-bezier(0.7,0,0.3,1)] ${isActive ? "animate-hero-kenburns" : ""}`}
+                className="absolute inset-0 h-full w-full object-cover animate-hero-kenburns transition-opacity ease-in-out"
                 style={{
                   opacity: isActive ? 1 : 0,
-                  transitionDuration: "1600ms",
+                  transitionDuration: "2600ms",
+                  animationDelay: `${i * -4}s`,
+                  willChange: "opacity, transform",
                 }}
               />
             );
