@@ -1,13 +1,25 @@
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 import { ArrowRight, BookOpen, Building2, Sun, HeartHandshake, Wrench, Users } from "lucide-react";
 import { useLanguage } from "@/i18n/LanguageContext";
 import { Button } from "@/components/ui/button";
 import SectionHeader from "@/components/SectionHeader";
-import heroImg from "@/assets/hero-children.jpg";
-import whyImg from "@/assets/why-we-act.jpg";
+import heroClassroom from "@/assets/hero-classroom.jpg.asset.json";
+import heroBooks from "@/assets/hero-books.jpg.asset.json";
+import heroOutreach from "@/assets/hero-outreach.jpg.asset.json";
+import whySchoolProject from "@/assets/why-school-project.jpg.asset.json";
 
 const Home = () => {
   const { t } = useLanguage();
+
+  const heroSlides = [heroClassroom.url, heroBooks.url, heroOutreach.url];
+  const [activeSlide, setActiveSlide] = useState(0);
+  useEffect(() => {
+    const id = setInterval(() => {
+      setActiveSlide((i) => (i + 1) % heroSlides.length);
+    }, 2000);
+    return () => clearInterval(id);
+  }, [heroSlides.length]);
 
   const impacts = [
     { icon: BookOpen, title: t("impact_education_title"), text: t("impact_education_text") },
@@ -23,7 +35,21 @@ const Home = () => {
       {/* HERO */}
       <section className="relative isolate overflow-hidden">
         <div className="absolute inset-0 -z-10">
-          <img src={heroImg} alt="" className="h-full w-full object-cover" width={1920} height={1280} />
+          {heroSlides.map((src, i) => (
+            <img
+              key={src}
+              src={src}
+              alt=""
+              width={1920}
+              height={1280}
+              className="absolute inset-0 h-full w-full object-cover transition-all ease-[cubic-bezier(0.7,0,0.3,1)]"
+              style={{
+                opacity: i === activeSlide ? 1 : 0,
+                transform: i === activeSlide ? "scale(1.04)" : "scale(1)",
+                transitionDuration: "1600ms",
+              }}
+            />
+          ))}
           <div className="absolute inset-0 bg-gradient-hero" />
         </div>
         <div className="container flex min-h-[88vh] flex-col justify-center py-24">
@@ -55,8 +81,8 @@ const Home = () => {
           <div className="relative">
             <div className="absolute -left-4 -top-4 h-full w-full rounded-3xl bg-gold/30" aria-hidden />
             <img
-              src={whyImg}
-              alt="Children studying together in a Nigerian village"
+              src={whySchoolProject.url}
+              alt="School building project rendering"
               loading="lazy"
               width={1280}
               height={960}
