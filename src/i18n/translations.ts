@@ -134,7 +134,7 @@ export const translations = {
     outreach_voc_title: "Fähigkeiten, die Leben verändern.",
     outreach_voc_intro: "Wir glauben, dass nachhaltiger Wandel nicht nur durch Bildung, sondern auch durch wirtschaftliche Unabhängigkeit entsteht. Mit unserem Berufsausbildungsprogramm statten wir Menschen mit praktischen Fähigkeiten und Werkzeugen aus, um ein selbstständiges Leben aufzubauen.",
     outreach_voc_card1: "Beschaffung von Industrienähmaschinen für die Werkstatt",
-    outreach_voc_card2: "Die Bethel-Werkstatt — ein vollausgestattetes Ausbildungszentrum für Schneiderei",
+    outreach_voc_card2: "Die Bethel-Werkstatt: ein vollausgestattetes Zentrum für Schneiderei und Mode",
     outreach_voc_card3: "Bethel Madunacho bei der Arbeit in seiner neuen Werkstatt",
     outreach_com_kicker: "Gemeinschaftseinsatz & Hausbesuche",
     outreach_com_title: "Wir gehen dorthin, wo Hilfe gebraucht wird.",
