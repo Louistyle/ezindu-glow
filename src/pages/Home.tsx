@@ -126,9 +126,16 @@ const Home = () => {
 
       {/* CTA */}
       <section className="container py-24">
-        <div className="relative overflow-hidden rounded-3xl bg-gradient-leaf p-10 text-primary-foreground shadow-warm md:p-16">
+        <div className="relative isolate overflow-hidden rounded-3xl p-10 text-primary-foreground shadow-warm md:p-16">
+          <img
+            src={ctaClassroom.url}
+            alt=""
+            aria-hidden
+            className="absolute inset-0 -z-10 h-full w-full object-cover animate-[ctaPan_18s_ease-in-out_infinite_alternate]"
+          />
+          <div className="absolute inset-0 -z-10 bg-gradient-hero" />
           <div className="absolute -right-20 -top-20 h-72 w-72 rounded-full bg-gold/30 blur-3xl" aria-hidden />
-          <div className="relative grid items-center gap-8 lg:grid-cols-[1.5fr_1fr]">
+          <div className="relative grid items-center gap-8 lg:grid-cols-[1.5fr_1fr] animate-[ctaSlideIn_1100ms_cubic-bezier(0.7,0,0.3,1)_both]">
             <div>
               <h2 className="font-display text-3xl font-semibold md:text-4xl text-balance">{t("home_hero_title")}</h2>
               <p className="mt-3 text-primary-foreground/85">{t("home_hero_sub")}</p>
