@@ -6,6 +6,7 @@ import schoolImg from "@/assets/project-school.jpg";
 import sponsorImg from "@/assets/project-sponsor.jpg";
 import solarImg from "@/assets/project-solar.jpg";
 import aidImg from "@/assets/project-aid.jpg";
+import waterImg from "@/assets/project-water.jpg.asset.json";
 
 const Projects = () => {
   const { t } = useLanguage();
@@ -13,6 +14,7 @@ const Projects = () => {
     { img: schoolImg, title: t("project_school_title"), text: t("project_school_text") },
     { img: sponsorImg, title: t("project_sponsor_title"), text: t("project_sponsor_text") },
     { img: solarImg, title: t("project_solar_title"), text: t("project_solar_text") },
+    { img: waterImg.url, title: t("project_water_title"), text: t("project_water_text") },
     { img: aidImg, title: t("project_aid_title"), text: t("project_aid_text") },
   ];
 
