@@ -26,14 +26,14 @@ const About = () => {
     <>
       {/* Header */}
       <section className="bg-gradient-leaf text-primary-foreground">
-        <div className="container py-20 md:py-28">
+        <div className="container py-14 md:py-28">
           <p className="mb-3 text-xs font-semibold uppercase tracking-[0.22em] text-gold">{t("about_who_kicker")}</p>
           <h1 className="font-display text-4xl font-semibold md:text-5xl lg:text-6xl text-balance max-w-3xl">{t("about_title")}</h1>
         </div>
       </section>
 
       {/* Who */}
-      <section className="container py-20 md:py-28">
+      <section className="container py-14 md:py-24">
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <img src={teamImg} alt="Ezindu team" loading="lazy" width={1280} height={960} className="rounded-3xl shadow-warm" />
           <div>
@@ -44,7 +44,7 @@ const About = () => {
       </section>
 
       {/* Vision */}
-      <section className="bg-gradient-soft py-20 md:py-28">
+      <section className="bg-gradient-soft py-14 md:py-24">
         <div className="container grid gap-12 lg:grid-cols-2">
           <div className="rounded-3xl bg-card p-8 shadow-card md:p-10">
             <h3 className="font-display text-2xl font-semibold text-primary md:text-3xl">{t("about_vision_title")}</h3>
@@ -65,7 +65,7 @@ const About = () => {
       </section>
 
       {/* Board of Directors */}
-      <section className="container py-20 md:py-28">
+      <section className="container py-14 md:py-20">
         <SectionHeader
           kicker="Leadership"
           title="The Hands That Steer Our Mission"
@@ -73,15 +73,15 @@ const About = () => {
         />
 
         {/* Director — featured */}
-        <div className="mx-auto mt-14 max-w-4xl">
+        <div className="mx-auto mt-10 max-w-4xl">
           <div className="grid items-center gap-8 rounded-3xl bg-gradient-leaf p-6 text-primary-foreground shadow-warm md:grid-cols-[auto,1fr] md:p-10">
             <div className="relative mx-auto md:mx-0">
-              <div className="absolute -inset-2 rounded-full bg-gold/40 blur-xl" aria-hidden />
+              <div className="absolute -inset-2 rounded-2xl bg-gold/40 blur-xl" aria-hidden />
               <img
                 src={boardDirector.url}
                 alt="Rev. Fr. Dr. Augustine Ben Onwubiko, Director"
                 loading="lazy"
-                className="relative h-48 w-48 rounded-full object-cover ring-4 ring-gold shadow-warm md:h-56 md:w-56"
+                className="relative h-64 w-48 rounded-2xl object-cover object-top ring-4 ring-gold shadow-warm md:h-72 md:w-56"
               />
             </div>
             <div className="text-center md:text-left">
@@ -101,14 +101,16 @@ const About = () => {
           {boardMembers.map((m) => (
             <div
               key={m.name}
-              className="group rounded-2xl border border-border bg-card p-6 text-center shadow-card transition-smooth hover:border-gold hover:shadow-warm"
+              className="group rounded-2xl border border-border bg-card p-5 text-center shadow-card transition-smooth hover:border-gold hover:shadow-warm"
             >
-              <img
-                src={m.img}
-                alt={`${m.name}, ${m.role}`}
-                loading="lazy"
-                className="mx-auto h-32 w-32 rounded-full object-cover ring-2 ring-border transition-smooth group-hover:ring-gold"
-              />
+              <div className="overflow-hidden rounded-xl ring-1 ring-border transition-smooth group-hover:ring-gold">
+                <img
+                  src={m.img}
+                  alt={`${m.name}, ${m.role}`}
+                  loading="lazy"
+                  className="aspect-[3/4] w-full object-cover object-top"
+                />
+              </div>
               <h4 className="mt-5 font-display text-lg font-semibold text-primary">{m.name}</h4>
               <p className="mt-1 text-xs font-semibold uppercase tracking-[0.18em] text-gold">{m.role}</p>
             </div>
@@ -117,7 +119,7 @@ const About = () => {
       </section>
 
       {/* Partners */}
-      <section className="container py-20 md:py-28">
+      <section className="container pb-14 pt-4 md:pb-24 md:pt-8">
         <SectionHeader title={t("about_partners_title")} />
         <div className="mt-12 grid gap-5 md:grid-cols-3">
           {partners.map(({ icon: Icon, label }) => (
