@@ -56,6 +56,20 @@ export const translations = {
     about_mission_4: "Nachhaltige Lösungen wie Solarenergie umsetzen",
     about_mission_5: "Gemeinschaften durch Berufsausbildung und direkte Hilfe stärken",
 
+    // About — Board of Directors
+    about_board_kicker: "Vorstand",
+    about_board_title: "Die Hände, die unsere Mission lenken",
+    about_board_subtitle: "Ein engagierter Vorstand begleitet Ezindu mit Weitblick, Integrität und gemeinsamem Einsatz für die Kinder und Gemeinschaften, denen wir in Deutschland und Nigeria dienen.",
+    about_board_director_role: "Vorsitzender",
+    about_board_director_name: "Hochw. P. Dr. Augustine Ben Onwubiko",
+    about_board_director_bio: "Gründer und spirituelles Herz von Ezindu. Pater Augustine verbindet Deutschland und Nigeria und trägt die Vision von Bildung, Würde und neuer Hoffnung in die Gemeinschaften im Südosten Nigerias.",
+    about_board_member1_name: "Herr Bernard Njoku",
+    about_board_member1_role: "Schriftführer & Kassenwart",
+    about_board_member2_name: "Herr Samuel Ibeji",
+    about_board_member2_role: "Mitglied",
+    about_board_member3_name: "Frau Philomena Asagwara",
+    about_board_member3_role: "Mitglied",
+
     // Situation
     situation_title: "Situation vor Ort",
     situation_kicker: "SÜDOST-NIGERIA HEUTE",
