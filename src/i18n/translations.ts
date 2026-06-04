@@ -94,6 +94,8 @@ export const translations = {
     project_solar_text: "Wir installieren Solaranlagen in Krankenhäusern und sichern so eine zuverlässige Energieversorgung – auch dort, wo das Stromnetz versagt.",
     project_aid_title: "Hilfsprogramme",
     project_aid_text: "Lebensmittelverteilung, Unterstützung von Witwen und Mikrokredite für kleine Unternehmen stärken die Gemeinschaft.",
+  project_water_title: "Wasser von oben: Lebensader für die Gemeinde",
+  project_water_text: "Ein erhöhter Wasserturm mit mehreren Tanks bringt sauberes, fließendes Wasser zu Schule, Klinik und Familien – Würde, Gesundheit und Hoffnung in jedem Tropfen.",
 
     // Donate
     donate_title: "Ihre Spende wirkt",
