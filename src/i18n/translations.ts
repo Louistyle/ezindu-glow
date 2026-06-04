@@ -249,6 +249,8 @@ export const translations = {
     project_solar_text: "We install solar systems in hospitals, ensuring reliable energy – even where the grid fails.",
     project_aid_title: "Aid Programs",
     project_aid_text: "Food distribution, support for widows and microloans for small businesses strengthen the community.",
+  project_water_title: "Water from Above: A Lifeline for the Community",
+  project_water_text: "An elevated water tower with multi-tank storage brings clean, flowing water to the school, clinic and families – dignity, health and hope in every drop.",
 
     donate_title: "Your Donation Matters",
     donate_lead: "Every donation brings us closer to giving children a future.",
