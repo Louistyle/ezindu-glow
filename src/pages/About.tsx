@@ -17,9 +17,9 @@ const About = () => {
   const mission = [t("about_mission_1"), t("about_mission_2"), t("about_mission_3"), t("about_mission_4"), t("about_mission_5")];
 
   const boardMembers = [
-    { name: "Mr. Bernard Njoku", role: "Secretary & Treasurer", img: boardNjoku.url },
-    { name: "Mr. Samuel Ibeji", role: "Member", img: boardIbeji.url },
-    { name: "Mrs. Philomena Asagwara", role: "Member", img: boardAsagwara.url },
+    { name: t("about_board_member1_name"), role: t("about_board_member1_role"), img: boardNjoku.url },
+    { name: t("about_board_member2_name"), role: t("about_board_member2_role"), img: boardIbeji.url },
+    { name: t("about_board_member3_name"), role: t("about_board_member3_role"), img: boardAsagwara.url },
   ];
 
   return (
@@ -67,9 +67,9 @@ const About = () => {
       {/* Board of Directors */}
       <section className="container py-14 md:py-20">
         <SectionHeader
-          kicker="Leadership"
-          title="The Hands That Steer Our Mission"
-          subtitle="A dedicated board guiding Ezindu with vision, integrity and a shared commitment to the children and communities we serve across Germany and Nigeria."
+          kicker={t("about_board_kicker")}
+          title={t("about_board_title")}
+          subtitle={t("about_board_subtitle")}
         />
 
         {/* Director — featured */}
@@ -79,18 +79,18 @@ const About = () => {
               <div className="absolute -inset-2 rounded-2xl bg-gold/40 blur-xl" aria-hidden />
               <img
                 src={boardDirector.url}
-                alt="Rev. Fr. Dr. Augustine Ben Onwubiko, Director"
+                alt={`${t("about_board_director_name")}, ${t("about_board_director_role")}`}
                 loading="lazy"
                 className="relative h-64 w-48 rounded-2xl object-cover object-top ring-4 ring-gold shadow-warm md:h-72 md:w-56"
               />
             </div>
             <div className="text-center md:text-left">
-              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-gold">Director</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-gold">{t("about_board_director_role")}</p>
               <h3 className="mt-2 font-display text-2xl font-semibold md:text-3xl">
-                Rev. Fr. Dr. Augustine Ben Onwubiko
+                {t("about_board_director_name")}
               </h3>
               <p className="mt-3 leading-relaxed text-primary-foreground/85">
-                Founder and spiritual heart of Ezindu, Fr. Augustine bridges Germany and Nigeria, carrying the vision of education, dignity and renewed hope to the communities of the southeast.
+                {t("about_board_director_bio")}
               </p>
             </div>
           </div>
