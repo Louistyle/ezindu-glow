@@ -6,14 +6,14 @@ import { Button } from "@/components/ui/button";
 import SectionHeader from "@/components/SectionHeader";
 import heroClassroom from "@/assets/hero-classroom.jpg.asset.json";
 import heroBooks from "@/assets/hero-books.jpg.asset.json";
-import heroOutreach from "@/assets/hero-outreach.jpg.asset.json";
+import heroChairs from "@/assets/hero-chairs.jpg.asset.json";
 import whySchoolProject from "@/assets/why-school-project.jpg.asset.json";
 import ctaClassroom from "@/assets/cta-classroom.jpg.asset.json";
 
 const Home = () => {
   const { t } = useLanguage();
 
-  const heroSlides = [heroClassroom.url, heroBooks.url, heroOutreach.url];
+  const heroSlides = [heroClassroom.url, heroBooks.url, heroChairs.url];
   const [activeSlide, setActiveSlide] = useState(0);
   useEffect(() => {
     const id = setInterval(() => {
@@ -56,17 +56,14 @@ const Home = () => {
             );
           })}
           <div className="absolute inset-0 bg-gradient-hero" />
-          {/* Extra fade on the left for text contrast */}
+          {/* Uniform overlay for consistent contrast across all viewports */}
           <div
             className="absolute inset-0 pointer-events-none"
             aria-hidden
-            style={{
-              background:
-                "linear-gradient(90deg, hsl(150 50% 12% / 0.78) 0%, hsl(150 50% 12% / 0.55) 35%, hsl(150 50% 12% / 0.15) 65%, hsl(150 50% 12% / 0) 100%)",
-            }}
+            style={{ background: "hsl(150 50% 12% / 0.55)" }}
           />
         </div>
-        <div className="container flex min-h-[88vh] flex-col justify-center py-24">
+        <div className="container flex min-h-[88vh] flex-col justify-center py-12 md:py-24">
           <div className="max-w-3xl animate-fade-up">
             <p className="mb-4 inline-flex items-center gap-2 rounded-full bg-gold/15 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.22em] text-gold backdrop-blur">
               <span className="h-1.5 w-1.5 rounded-full bg-gold" /> Ezindu e.V.
