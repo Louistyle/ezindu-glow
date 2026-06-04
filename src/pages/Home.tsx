@@ -87,7 +87,7 @@ const Home = () => {
       </section>
 
       {/* WHY */}
-      <section className="container py-24 md:py-32">
+      <section className="container pt-20 pb-10 md:pt-28 md:pb-14">
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="relative">
             <div className="absolute -left-4 -top-4 h-full w-full rounded-3xl bg-gold/30" aria-hidden />
@@ -114,7 +114,7 @@ const Home = () => {
       </section>
 
       {/* IMPACT */}
-      <section className="bg-gradient-soft py-24 md:py-32">
+      <section className="bg-gradient-soft pt-12 pb-20 md:pt-16 md:pb-28">
         <div className="container">
           <SectionHeader kicker={t("home_impact_kicker")} title={t("home_impact_title")} />
           <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
