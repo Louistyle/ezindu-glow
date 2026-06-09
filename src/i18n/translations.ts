@@ -13,7 +13,7 @@ export const translations = {
 
     // Home — hero
     home_hero_title: "Bildung verändert Leben – schenken Sie Zukunft.",
-    home_hero_sub: "Gemeinsam bauen wir Schulen, fördern Kinder und geben einer ganzen Generation in Biafraland neue Hoffnung.",
+    home_hero_sub: "Gemeinsam bauen wir Schulen, fördern Kinder und geben einer ganzen Generation im Südosten Nigerias neue Hoffnung.",
     home_cta_donate: "Jetzt spenden",
     home_cta_sponsor: "Kind unterstützen",
 
@@ -73,7 +73,7 @@ export const translations = {
     // Situation
     situation_title: "Situation vor Ort",
     situation_kicker: "SÜDOST-NIGERIA HEUTE",
-    situation_lead: "Die ehemalige Region Biafra leidet bis heute unter den Folgen des Bürgerkriegs der 1960er Jahre. Wiederaufbau wurde nie vollständig realisiert. Ganze Gemeinden tragen die Last fehlender Infrastruktur, mangelnder Bildung und wirtschaftlicher Vernachlässigung.",
+    situation_lead: "Der Südosten Nigerias leidet bis heute unter den Folgen des Bürgerkriegs der 1960er Jahre. Wiederaufbau wurde nie vollständig realisiert. Ganze Gemeinden tragen die Last fehlender Infrastruktur, mangelnder Bildung und wirtschaftlicher Vernachlässigung.",
     consequence_education: "Fehlender Zugang zu Bildung",
     consequence_education_text: "Schulen sind weit, überfüllt oder nicht vorhanden.",
     consequence_unemployment: "Hohe Jugendarbeitslosigkeit",
@@ -174,7 +174,7 @@ export const translations = {
     nav_donate_cta: "Donate Now",
 
     home_hero_title: "Education transforms lives – be part of the change.",
-    home_hero_sub: "Together, we build schools, empower children, and restore hope to a generation in Biafraland.",
+    home_hero_sub: "Together, we build schools, empower children, and restore hope to a generation in South Eastern Nigeria.",
     home_cta_donate: "Donate Now",
     home_cta_sponsor: "Sponsor a Child",
 
