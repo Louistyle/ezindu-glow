@@ -1,6 +1,6 @@
 import { GraduationCap, Briefcase, UserX, CloudOff } from "lucide-react";
 import { useLanguage } from "@/i18n/LanguageContext";
-import situationImg from "@/assets/situation.jpg";
+import situationImg from "@/assets/situation-southeast.jpg.asset.json";
 
 const Situation = () => {
   const { t } = useLanguage();
@@ -22,7 +22,7 @@ const Situation = () => {
 
       <section className="container py-20 md:py-28">
         <div className="grid items-center gap-12 lg:grid-cols-2">
-          <img src={situationImg} alt="Village in southeastern Nigeria" loading="lazy" width={1280} height={960} className="rounded-3xl shadow-warm" />
+          <img src={situationImg.url} alt="Community outreach in South Eastern Nigeria" loading="lazy" width={1280} height={960} className="rounded-3xl shadow-warm" />
           <p className="text-lg leading-relaxed text-muted-foreground">{t("situation_lead")}</p>
         </div>
       </section>
