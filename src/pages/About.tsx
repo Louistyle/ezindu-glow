@@ -1,7 +1,7 @@
 import { CheckCircle2, Users, Building2, Globe2 } from "lucide-react";
 import { useLanguage } from "@/i18n/LanguageContext";
 import SectionHeader from "@/components/SectionHeader";
-import teamImg from "@/assets/team.jpg";
+import teamImg from "@/assets/about-southeast.jpg.asset.json";
 import boardDirector from "@/assets/board-director.jpg.asset.json";
 import boardNjoku from "@/assets/board-njoku.png.asset.json";
 import boardIbeji from "@/assets/board-ibeji.png.asset.json";
@@ -35,7 +35,7 @@ const About = () => {
       {/* Who */}
       <section className="container py-14 md:py-24">
         <div className="grid items-center gap-12 lg:grid-cols-2">
-          <img src={teamImg} alt="Ezindu team" loading="lazy" width={1280} height={960} className="rounded-3xl shadow-warm" />
+          <img src={teamImg.url} alt="Ezindu team in the South-East community" loading="lazy" width={1280} height={960} className="rounded-3xl shadow-warm" />
           <div>
             <h2 className="font-display text-3xl font-semibold text-primary md:text-4xl text-balance">{t("about_who_title")}</h2>
             <p className="mt-5 text-lg leading-relaxed text-muted-foreground">{t("about_who_text")}</p>
