@@ -73,23 +73,23 @@ const About = () => {
         />
 
         {/* Director — featured */}
-        <div className="mx-auto mt-10 max-w-4xl">
-          <div className="grid items-center gap-8 rounded-3xl bg-gradient-leaf p-6 text-primary-foreground shadow-warm md:grid-cols-[auto,1fr] md:p-10">
+        <div className="mx-auto mt-10 max-w-5xl">
+          <div className="grid items-center gap-10 rounded-3xl bg-gradient-leaf p-8 text-primary-foreground shadow-warm md:grid-cols-[auto,1fr] md:p-12">
             <div className="relative mx-auto md:mx-0">
-              <div className="absolute -inset-2 rounded-2xl bg-gold/40 blur-xl" aria-hidden />
+              <div className="absolute -inset-3 rounded-2xl bg-gold/40 blur-xl" aria-hidden />
               <img
                 src={boardDirector.url}
                 alt={`${t("about_board_director_name")}, ${t("about_board_director_role")}`}
                 loading="lazy"
-                className="relative h-64 w-48 rounded-2xl object-cover object-top ring-4 ring-gold shadow-warm md:h-72 md:w-56"
+                className="relative h-72 w-56 rounded-2xl object-cover object-top ring-4 ring-gold shadow-warm md:h-[22rem] md:w-[17rem]"
               />
             </div>
             <div className="text-center md:text-left">
               <p className="text-xs font-semibold uppercase tracking-[0.22em] text-gold">{t("about_board_director_role")}</p>
-              <h3 className="mt-2 font-display text-2xl font-semibold md:text-3xl">
+              <h3 className="mt-2 font-display text-3xl font-semibold md:text-4xl lg:text-[2.5rem] leading-tight">
                 {t("about_board_director_name")}
               </h3>
-              <p className="mt-3 leading-relaxed text-primary-foreground/85">
+              <p className="mt-4 leading-relaxed text-primary-foreground/85 text-base md:text-lg max-w-xl">
                 {t("about_board_director_bio")}
               </p>
             </div>
