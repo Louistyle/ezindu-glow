@@ -219,7 +219,7 @@ export const translations = {
     about_board_subtitle: "A dedicated board guiding Ezindu with vision, integrity and a shared commitment to the children and communities we serve in Southeast Nigeria.",
     about_board_director_role: "Director",
     about_board_director_name: "Rev. Fr. Dr. Augustine Ben Onwubiko",
-    about_board_director_bio: "Founder and spiritual heart of Ezindu, Fr. Augustine bridges Germany and Nigeria, carrying the vision of education, dignity and renewed hope to the communities of the southeast.",
+    about_board_director_bio: "As founder and spiritual heart of Ezindu, Rev. Fr. Dr. Augustine Ben bridges Germany and Nigeria. With his vision of education, dignity and renewed hope, he advocates for the people and communities of southeastern Nigeria. His commitment forms the foundation of Ezindu's work and creates perspectives for sustainable and positive development on the ground.",
     about_board_member1_name: "Mr. Bernard Njoku",
     about_board_member1_role: "Secretary & Treasurer",
     about_board_member2_name: "Mr. Samuel Ibeji",
