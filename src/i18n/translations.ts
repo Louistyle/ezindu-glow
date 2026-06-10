@@ -216,7 +216,7 @@ export const translations = {
 
     about_board_kicker: "Leadership",
     about_board_title: "The Hands That Steer Our Mission",
-    about_board_subtitle: "A dedicated board guiding Ezindu with vision, integrity and a shared commitment to the children and communities we serve across Germany and Nigeria.",
+    about_board_subtitle: "A dedicated board guiding Ezindu with vision, integrity and a shared commitment to the children and communities we serve in Southeast Nigeria.",
     about_board_director_role: "Director",
     about_board_director_name: "Rev. Fr. Dr. Augustine Ben Onwubiko",
     about_board_director_bio: "Founder and spiritual heart of Ezindu, Fr. Augustine bridges Germany and Nigeria, carrying the vision of education, dignity and renewed hope to the communities of the southeast.",
