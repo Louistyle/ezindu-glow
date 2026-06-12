@@ -52,7 +52,7 @@ export const translations = {
     about_mission_title: "Unsere Mission",
     about_mission_1: "Schulen und Bildungseinrichtungen bauen",
     about_mission_2: "Kinder durch Patenschaftsprogramme unterstützen",
-    about_mission_3: "Vulnerable Familien begleiten",
+    about_mission_3: "Hilfsbedürftige Familien begleiten",
     about_mission_4: "Nachhaltige Lösungen wie Solarenergie umsetzen",
     about_mission_5: "Gemeinschaften durch Berufsausbildung und direkte Hilfe stärken",
 
