@@ -74,14 +74,14 @@ const About = () => {
 
         {/* Director — featured */}
         <div className="mx-auto mt-10 max-w-5xl">
-          <div className="grid items-center gap-10 rounded-3xl bg-gradient-leaf p-8 text-primary-foreground shadow-warm md:grid-cols-[auto,1fr] md:p-12">
-            <div className="relative mx-auto md:mx-0">
+          <div className="grid items-center gap-8 rounded-3xl bg-gradient-leaf p-6 text-primary-foreground shadow-warm sm:p-8 md:grid-cols-[auto,1fr] md:gap-10 md:p-12">
+            <div className="relative mx-auto w-full md:mx-0 md:w-auto">
               <div className="absolute -inset-3 rounded-2xl bg-gold/40 blur-xl" aria-hidden />
               <img
                 src={boardDirector.url}
                 alt={`${t("about_board_director_name")}, ${t("about_board_director_role")}`}
                 loading="lazy"
-                className="relative h-72 w-56 rounded-2xl object-cover object-top ring-4 ring-gold shadow-warm md:h-[22rem] md:w-[17rem]"
+                className="relative w-full rounded-2xl object-cover object-top ring-4 ring-gold shadow-warm aspect-[4/5] md:aspect-auto md:h-[22rem] md:w-[17rem]"
               />
             </div>
             <div className="text-center md:text-left">
