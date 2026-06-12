@@ -24,7 +24,7 @@ export const translations = {
 
     // Impact
     home_impact_kicker: "Unsere Wirkung",
-    home_impact_title: "Vier Säulen, die Leben verändern.",
+    home_impact_title: "Sechs Säulen, die Leben verändern.",
     impact_education_title: "Zugang zu Bildung",
     impact_education_text: "Wir öffnen Türen zu Klassenzimmern und Lehrmaterial.",
     impact_school_title: "Schulbau",
@@ -183,7 +183,7 @@ export const translations = {
     home_why_text: "Thousands of children in southeastern Nigeria grow up without access to education. Poverty, lack of infrastructure, and the consequences of civil war shape everyday life. We believe every child deserves a school, hope, and a future.",
 
     home_impact_kicker: "Our impact",
-    home_impact_title: "Four pillars that change lives.",
+    home_impact_title: "Six pillars that change lives.",
     impact_education_title: "Access to Education",
     impact_education_text: "We open doors to classrooms and learning materials.",
     impact_school_title: "School Construction",
