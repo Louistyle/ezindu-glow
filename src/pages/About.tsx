@@ -102,7 +102,7 @@ const About = () => {
             <div
               key={m.name}
               className={`group rounded-2xl border border-border bg-card p-4 text-center shadow-card transition-smooth hover:border-gold hover:shadow-warm sm:p-5 ${
-                i === 2 ? "col-start-2 lg:col-start-auto" : ""
+                i === 2 ? "col-start-1 lg:col-start-auto" : ""
               }`}
             >
               <div className="overflow-hidden rounded-xl ring-1 ring-border transition-smooth group-hover:ring-gold">
