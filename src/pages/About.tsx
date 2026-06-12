@@ -97,11 +97,13 @@ const About = () => {
         </div>
 
         {/* Members */}
-        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {boardMembers.map((m) => (
+        <div className="mt-10 grid grid-cols-2 gap-4 sm:gap-6 lg:grid-cols-3">
+          {boardMembers.map((m, i) => (
             <div
               key={m.name}
-              className="group rounded-2xl border border-border bg-card p-5 text-center shadow-card transition-smooth hover:border-gold hover:shadow-warm"
+              className={`group rounded-2xl border border-border bg-card p-4 text-center shadow-card transition-smooth hover:border-gold hover:shadow-warm sm:p-5 ${
+                i === 2 ? "col-start-2 lg:col-start-auto" : ""
+              }`}
             >
               <div className="overflow-hidden rounded-xl ring-1 ring-border transition-smooth group-hover:ring-gold">
                 <img
