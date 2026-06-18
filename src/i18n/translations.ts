@@ -157,7 +157,7 @@ export const translations = {
     outreach_com_intro: "Unser Einsatz geht über Institutionen hinaus. Wir besuchen die Schwächsten zu Hause – ältere Menschen, Kranke, Familien mit kleinen Kindern – und bringen ihnen direkte Unterstützung, Würde und Hoffnung. Wir veranstalten auch Gemeindeversammlungen, bei denen Lebensmittel und wichtige Güter an Bedürftige verteilt werden.",
     outreach_com_g1: "Hausbesuch bei einem älteren Gemeindemitglied",
     outreach_com_g2: "Besuch einer bedürftigen Familie",
-    outreach_com_g3: "Direkte Hilfslieferung an gefährdete Personen",
+    outreach_com_g3: "Direkte Hilfslieferungen an Bedürftige",
     outreach_com_g4: "Gemeindeversammlung – Familien erhalten Unterstützung",
     outreach_com_g5: "Lebensmittelverteilung an Frauen und Familien",
     outreach_com_g6: "Reis und wichtige Lebensmittel zur Verteilung bereit",
