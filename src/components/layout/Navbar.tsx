@@ -13,8 +13,8 @@ const Navbar = () => {
   const links = [
     { to: "/", label: t("nav_home") },
     { to: "/about", label: t("nav_about") },
-    { to: "/projects", label: t("nav_projects") },
     { to: "/situation", label: t("nav_situation") },
+    { to: "/projects", label: t("nav_projects") },
     { to: "/outreach", label: t("nav_outreach") },
     { to: "/get-involved", label: t("nav_involved") },
     { to: "/contact", label: t("nav_contact") },
