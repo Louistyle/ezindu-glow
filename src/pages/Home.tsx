@@ -60,7 +60,7 @@ const Home = () => {
           <div
             className="absolute inset-0 pointer-events-none"
             aria-hidden
-            style={{ background: "hsl(150 50% 12% / 0.40)" }}
+            style={{ background: "hsl(150 50% 12% / 0.32)" }}
           />
         </div>
         <div className="container flex min-h-[88vh] flex-col justify-center py-12 md:py-24">
