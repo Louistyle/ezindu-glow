@@ -1,11 +1,11 @@
 import { CheckCircle2, Users, Building2, Globe2 } from "lucide-react";
 import { useLanguage } from "@/i18n/LanguageContext";
 import SectionHeader from "@/components/SectionHeader";
-import teamImg from "@/assets/about-southeast.jpg.asset.json";
-import boardDirector from "@/assets/board-director.jpg.asset.json";
-import boardNjoku from "@/assets/board-njoku.png.asset.json";
-import boardIbeji from "@/assets/board-ibeji.png.asset.json";
-import boardAsagwara from "@/assets/board-asagwara.png.asset.json";
+import teamImg from "@/assets/about-southeast.jpg";
+import boardDirector from "@/assets/board-director.jpg";
+import boardNjoku from "@/assets/board-njoku.png";
+import boardIbeji from "@/assets/board-ibeji.png";
+import boardAsagwara from "@/assets/board-asagwara.png";
 
 const About = () => {
   const { t } = useLanguage();
@@ -17,9 +17,9 @@ const About = () => {
   const mission = [t("about_mission_1"), t("about_mission_2"), t("about_mission_3"), t("about_mission_4"), t("about_mission_5")];
 
   const boardMembers = [
-    { name: t("about_board_member1_name"), role: t("about_board_member1_role"), img: boardNjoku.url },
-    { name: t("about_board_member2_name"), role: t("about_board_member2_role"), img: boardIbeji.url },
-    { name: t("about_board_member3_name"), role: t("about_board_member3_role"), img: boardAsagwara.url },
+    { name: t("about_board_member1_name"), role: t("about_board_member1_role"), img: boardNjoku },
+    { name: t("about_board_member2_name"), role: t("about_board_member2_role"), img: boardIbeji },
+    { name: t("about_board_member3_name"), role: t("about_board_member3_role"), img: boardAsagwara },
   ];
 
   return (
@@ -35,7 +35,7 @@ const About = () => {
       {/* Who */}
       <section className="container py-14 md:py-24">
         <div className="grid items-center gap-12 lg:grid-cols-2">
-          <img src={teamImg.url} alt="Ezindu team in the South-East community" loading="lazy" width={1280} height={960} className="rounded-3xl shadow-warm" />
+          <img src={teamImg} alt="Ezindu team in the South-East community" loading="lazy" width={1280} height={960} className="rounded-3xl shadow-warm" />
           <div>
             <h2 className="font-display text-3xl font-semibold text-primary md:text-4xl text-balance">{t("about_who_title")}</h2>
             <p className="mt-5 text-lg leading-relaxed text-muted-foreground">{t("about_who_text")}</p>
@@ -78,7 +78,7 @@ const About = () => {
             <div className="relative mx-auto w-full md:mx-0 md:w-auto">
               <div className="absolute -inset-3 rounded-2xl bg-gold/40 blur-xl" aria-hidden />
               <img
-                src={boardDirector.url}
+                src={boardDirector}
                 alt={`${t("about_board_director_name")}, ${t("about_board_director_role")}`}
                 loading="lazy"
                 className="relative w-full rounded-2xl object-cover object-top ring-4 ring-gold shadow-warm aspect-[4/5] md:aspect-auto md:h-[22rem] md:w-[17rem]"
