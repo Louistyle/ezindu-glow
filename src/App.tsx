@@ -4,6 +4,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { LanguageProvider } from "@/i18n/LanguageContext";
+import { Analytics } from "@vercel/analytics/react";
 import Layout from "@/components/layout/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -38,6 +39,7 @@ const App = () => (
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
+        <Analytics />
       </TooltipProvider>
     </LanguageProvider>
   </QueryClientProvider>
