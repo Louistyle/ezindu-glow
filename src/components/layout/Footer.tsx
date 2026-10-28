@@ -38,8 +38,8 @@ const Footer = () => {
         <div>
           <h4 className="mb-4 text-xs font-semibold uppercase tracking-widest text-gold">{t("footer_follow")}</h4>
           <div className="flex gap-3">
-            <a href="#" aria-label="Facebook" className="grid h-10 w-10 place-items-center rounded-full border border-primary-foreground/20 transition-smooth hover:bg-gold hover:text-secondary-foreground"><Facebook className="h-4 w-4" /></a>
-            <a href="#" aria-label="Instagram" className="grid h-10 w-10 place-items-center rounded-full border border-primary-foreground/20 transition-smooth hover:bg-gold hover:text-secondary-foreground"><Instagram className="h-4 w-4" /></a>
+                        <a href="https://www.facebook.com/share/1GZXLTvjr3/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="grid h-10 w-10 place-items-center rounded-full border border-primary-foreground/20 transition-smooth hover:bg-gold hover:text-secondary-foreground"><Facebook className="h-4 w-4" /></a>
+            <a href="https://www.instagram.com/ezindu.erloestes.leben?stkn=ZTVvZ2Ixa3QybDgx" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="grid h-10 w-10 place-items-center rounded-full border border-primary-foreground/20 transition-smooth hover:bg-gold hover:text-secondary-foreground"><Instagram className="h-4 w-4" /></a>
             <a href="mailto:ezinduev@gmail.com" aria-label="Email" className="grid h-10 w-10 place-items-center rounded-full border border-primary-foreground/20 transition-smooth hover:bg-gold hover:text-secondary-foreground"><Mail className="h-4 w-4" /></a>
           </div>
         </div>
